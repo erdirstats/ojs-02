@@ -2,7 +2,7 @@
 title: "02 CPT DATA"
 format: 
     html:
-        fontsize: 0.85em
+        fontsize: 0.95em
         mainfont: 'Fira Mono'
         echo: false
         code-tools: true
@@ -36,9 +36,7 @@ Select one or several CPTs to show on the plots:
 ```{ojs}
 // select location CPT
 viewof filt_cpt = Inputs.select([null].concat(ojs_data_loca.map(d => d.LOCA_ID)), {multiple: 8, label: null, sort: true, unique: true})
-
 ojs_data_loca_filt = ojs_data_loca.filter(function(func_unit_filt) {return filt_cpt.includes(func_unit_filt.LOCA_ID);})
-
 ojs_data_scpt_filt = ojs_data_scpt.filter(function(func_unit_filt) {return filt_cpt.includes(func_unit_filt.LOCA_ID);})
 ```
 
