@@ -128,7 +128,7 @@ Plot.plot({
         nice: true
     },
     y: {
-        label: "MBSL (m)",
+        label: "Depth (m)",
         nice: true,
         reverse: true
     },
