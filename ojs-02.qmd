@@ -21,7 +21,7 @@ ojs_data_scpt = FileAttachment('data-scpt.csv').csv({typed: true})
 
 ::: {.g-col-2}
 
-## Controls
+## Control
 
 Control the appearance here.
 
